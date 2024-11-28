@@ -8,3 +8,7 @@ function criaCartao(categoria, pergunta, resposta) {
     let cartao = document.createElement('article')
     cartao.className = 'cartao'
 }
+function viraCartao(){
+    respostaestaVisivel = !respostaEstaVisivel
+    cartao.classList.toggle('active', respostaEstaVisivel)
+}
